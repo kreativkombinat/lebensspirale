@@ -2,22 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>DIE LEBENSSPIRALE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <style>
-      body {
-      	padding-top: 60px;
-      	/* 60px to make the container go all the way to the bottom of the topbar */
-      	background-image: url(img/muster_papier.jpg);
-      	background-repeat: repeat;
-      	background-position: left top;
-      	background-attachment: fixed;
-      }
+
     </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -27,15 +21,21 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
+<!-- 
     <link rel="shortcut icon" href="ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+ -->
+    
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar">
+  
+  
 
+<!-- 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -51,34 +51,477 @@
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div><!~~/.nav-collapse ~~>
         </div>
       </div>
     </div>
+ -->
 
-    <div class="container">
 
-      <h1>Bootstrap starter template</h1>
-      <p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p>
+    
+
+    <!-- HAUPTNAVIGATION
+    ================================================== -->    
+    <nav>
+    		<div class="navbar navbar-fixed-top">
+			<!-- <div class="navbar-inner"> -->
+		<div class="container basislayer">
+
+<!--      <a class="brand" href="#">Lebens-Spirale</a> -->
+      <ul class="nav">
+        <li class="dropdown active intern"><a id="firstitem" class="main-link intern" href="body"><span>LEISTUNGEN</span></a>
+        	<ul class="dropdown-menu" >
+					<li class="active" ><a href="#">NLP</a></li>
+					<li><a class="intern" href="#">THERAPIE</a></li>
+					<li><a class="intern" href="#">COACHING</a></li>
+					<li><a class="intern" href="#">SEMINARE</a></li>
+					<li><a class="intern" href="#autismus">AUTISMUS</a></li>
+					<li><a class="intern" href="#">SPECIALS</a></li>
+			</ul>
+
+        </li>        
+        <li class="dropdown"><a class="main-link" href="#"><span>PHILOSOPHIE</span></a> 
+              	<ul class="dropdown-menu">
+			 <li><a class="intern" href="#hans">Hans</a></li>
+			 <li><a class="intern" href="#hubert">Hubert</a></li>
+			 <li><a class="intern" href="#reinhold">Reinhold</a></li>
+				</ul> 
+				</li>       
+        <li><a href="#" class="main-link intern"><span>AKTUELLES</span></a></li>
+        <li><a href="#" class="main-link intern"><span>KLIENTEN-INFO</span></a></li>
+        <li><a href="#kontakt" class="main-link intern"><span>KONTAKT</span></a></li>
+<!--         <li><a href="#" class="main-link"><span>LEBENSKRISE</span></a></li> -->
+      </ul>     
+      </div><!-- class="container" -->
+			<!-- </div> -->
+          </div>
+    </nav> <!-- class="navbar navbar-fixed-top" -->
+    
+    
+<div class="container">
+        
+    <!-- HEADER
+    ================================================== -->  
+        
+    <header>
+    <div class="hero-unit">
+    <div class="branding">
+    <img alt="logo_lebensspirale" src="img/logo_lebensspirale_200.png">
+    </div>
+    <h1>DIE LEBENSSPIRALE</h1>
+    <h3>Praxis für Psychotherapie, Traning, Beratung und Weiterbidlung
+Brigitte Seidl-Wiessner</h3>
+<!-- 
+    <p>
+    <a class="btn btn-primary btn-large">
+    Learn more
+    </a>
+    </p>
+ -->
+    </div>
+    </header>  
+    
+<section><!--BEGINN ABSCHNITT NLP-->
+    
+            <!-- 1. Section (NLP)
+    ================================================== -->  
+    
+        <div class="palette">
+
+        <header>
+        <div class="bannerfoto">
+        <img alt="lebensspirale_banner_nlp_1170" src="img/lebensspirale_banner_nlp_1170.png">
+        </div>
+          <h2>NLP</h2>
+        </header>
+        
+	<article class="row">       
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+        	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->    		
+    </article> <!-- row haupttext -->    
+    </div> <!--class="palette" --> 		        	
+        	
+        	        <!-- (NLP) ACCORDION
+    ================================================== -->  
+        	
+	<article>  <!--accordion-->
+        	        
+<div class="accordion" id="accordion1">
+<div class="accordion-group">
+<div class="accordion-heading row">
+<a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+WEITERLESEN
+</a>
+</div><!--accordion-heading-->
+
+<div id="collapseOne" class="palette accordion-body collapse in">
+<div class="row accordion-inner">
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->         	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+</div>  <!--accordion-inner--> 	
+</div><!--collapseOne-->
+</div><!--class accordion-group-->
+</div><!-- class id accordeon1 -->
+	</article>  
+	
+</section><!-- ENDE  ABSCHNITT NLP --> 
+
+<section id="autismus" ><!--BEGINN ABSCHNITT AUTISMUS-->
+    
+            <!-- X. Section (AUTISMUS)
+    ================================================== -->  
+    
+        <div class="palette">
+
+        <header>
+        <div class="bannerfoto">
+<img alt="lebensspirale_banner_autismus_1170" src="img/lebensspirale_banner_autismus_1170.png">
+        </div>
+          <h2>AUTISMUS</h2>
+        </header>
+        
+	<article class="row">       
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+        	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->    		
+    </article> <!-- row haupttext -->    
+    </div> <!--class="palette" --> 		        	
+        	
+        	        <!-- (XXX) ACCORDION
+    ================================================== -->  
+        	
+	<article>  <!--accordion-->
+        	        
+<div class="accordion" id="accordion3">
+<div class="accordion-group">
+<div class="accordion-heading row">
+<a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
+WEITERLESEN
+</a>
+</div><!--accordion-heading-->
+
+<div id="collapseThree" class="palette accordion-body collapse in">
+<div class="row accordion-inner">
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->         	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+</div>  <!--accordion-inner--> 	
+</div><!--collapseOne-->
+</div><!--class accordion-group-->
+</div><!-- class id accordeon1 -->
+	</article>  
+	
+</section><!-- ENDE  ABSCHNITT  -->  
+
+<section><!--BEGINN ABSCHNITT AUTISMUS-->
+    
+            <!-- X. Section (XXX)
+    ================================================== -->  
+    
+        <div class="palette">
+
+        <header>
+        <div class="bannerfoto">
+        <img alt="Lebenskrisen" src="img/lebensspirale_banner_lebenskrisen_1170.png">
+        </div>
+          <h2>LEBENSKRISEN</h2>
+        </header>
+        
+	<article class="row">       
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+        	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->    		
+    </article> <!-- row haupttext -->    
+    </div> <!--class="palette" --> 		        	
+        	
+        	        <!-- (LEBENSKRISE) ACCORDION
+    ================================================== -->  
+        	
+	<article>  <!--accordion-->
+        	        
+<div class="accordion" id="accordion3">
+<div class="accordion-group">
+<div class="accordion-heading row">
+<a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
+WEITERLESEN
+</a>
+</div><!--accordion-heading-->
+
+<div id="collapseThree" class="palette accordion-body collapse in">
+<div class="row accordion-inner">
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->         	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+</div>  <!--accordion-inner--> 	
+</div><!--collapseOne-->
+</div><!--class accordion-group-->
+</div><!-- class id accordeon1 -->
+	</article>  
+	
+</section><!-- ENDE  ABSCHNITT AUTISMUS -->   
+
+<section id="kontakt" ><!--BEGINN ABSCHNITT KONTAKT-->
+    
+            <!-- X. Section (KONTAKT)
+    ================================================== -->  
+    
+        <div class="palette">
+
+        <header>
+        <div class="bannerfoto">
+<img alt="lebensspirale_banner_kontakt_1170" src="img/lebensspirale_banner_kontakt_1170.png">
+        </div>
+          <h2>Kontakt</h2>
+        </header>
+        
+	<article class="row">       
+<div class="span6"> 
+        		<h4>Es freut mich von Ihnen zu hören:</h4>
+ 
+<div class="indent">
+ <iframe width="425" height="350" style="border:none;"  src="https://maps.google.de/maps?q=Schlo%C3%9Fplatz+1+86551+Aichach&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=&amp;hnear=Schlo%C3%9Fplatz+1,+86551+Aichach,+Schwaben,+Bayern&amp;t=m&amp;ll=48.458523,11.129408&amp;spn=0.019922,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.de/maps?q=Schlo%C3%9Fplatz+1+86551+Aichach&amp;oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;hq=&amp;hnear=Schlo%C3%9Fplatz+1,+86551+Aichach,+Schwaben,+Bayern&amp;t=m&amp;ll=48.458523,11.129408&amp;spn=0.019922,0.036478&amp;z=14&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">Größere Kartenansicht</a></small>
+</div>
+ 
+</div>
+
+<div class="span6">
+        		<h4>Kontakt-Formular</h4>
+    <form action="skript-formular.php" id="contact-form" method="post" class="indent">
+    
+    					  <fieldset>
+<!-- 					    <legend>Ihr Kontakt</legend> -->
+					    <div class="control-group">
+					      <label class="control-label" for="name">Ihr Name</label>
+					      <div class="controls">
+					        <input type="text" class="input-xlarge" name="name" id="name">
+					      </div>
+					    </div>
+					    <div class="control-group">
+					      <label class="control-label" for="email">Email Adresse</label>
+					      <div class="controls">
+					        <input type="text" class="input-xlarge" name="email" id="email">
+					      </div>
+					    </div>
+					    <div class="control-group">
+					      <label class="control-label" for="subject">Betreff</label>
+					      <div class="controls">
+					        <input type="text" class="input-xlarge" name="subject" id="subject">
+					      </div>
+					    </div>
+					    <div class="control-group">
+					      <label class="control-label" for="message">Ihre Nachricht</label>
+					      <div class="controls">
+					        <textarea class="input-xlarge" name="message" id="message" rows="3"></textarea>
+					      </div>
+					    </div>
+              <div>
+	<button type="submit" class="btn btn-success btn-large">Senden</button>
+    <button class="btn">Zurücksetzen</button>
+        			</div><!--form-actions-->
+					  </fieldset>
+    
+    
+
+    </form>
+</div>
+        		   		
+    </article> <!-- row haupttext -->    
+    </div> <!--class="palette" --> 		        	
+        	
+
+	
+</section><!-- ENDE  ABSCHNITT KONTAKT -->  
+
+<section><!--BEGINN ABSCHNITT XXX-->
+    
+            <!-- X. Section (XXX)
+    ================================================== -->  
+    
+        <div class="palette">
+
+        <header>
+        <div class="bannerfoto">
+        <img alt="lebensspirale_banner_nlp_1170" src="img/lebensspirale_banner_nlp_1170.png">
+        </div>
+          <h2>XXX</h2>
+        </header>
+        
+	<article class="row">       
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+        	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->    		
+    </article> <!-- row haupttext -->    
+    </div> <!--class="palette" --> 		        	
+        	
+        	        <!-- (XXX) ACCORDION
+    ================================================== -->  
+        	
+	<article>  <!--accordion-->
+        	        
+<div class="accordion" id="accordion3">
+<div class="accordion-group">
+<div class="accordion-heading row">
+<a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
+WEITERLESEN
+</a>
+</div><!--accordion-heading-->
+
+<div id="collapseThree" class="palette accordion-body collapse in">
+<div class="row accordion-inner">
+        		<div class="span6">
+        		<h4>Unterüberschrift linke Spalte</h4>
+        		<p>
+        		Fließtext linke Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->         	
+        	    <div class="span6">
+        		<h4>Unterüberschrift rechte Spalte</h4>
+        		<p>
+        		Fließtext rechte Spalte
+        		</p>
+        		</div>  <!-- class span 6 -->   
+</div>  <!--accordion-inner--> 	
+</div><!--collapseOne-->
+</div><!--class accordion-group-->
+</div><!-- class id accordeon1 -->
+	</article>  
+	
+</section><!-- ENDE  ABSCHNITT XXX -->  
+
+
+               
+
+  
+    <footer>
+      <p>Copyright © 2012 All Rights</p>
+    </footer>  
 
     </div> <!-- /container -->
 
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+$(document).ready(function(){
+	$(".navbar li a.main-link").hover(function(){
+		$(".navbar li a.main-link").removeClass("active");												 
+		$(this).addClass("active");										 
+		$(".dropdown-menu").hide();
+		$(this).siblings(".dropdown-menu").fadeIn();
+	});
+	$(".navbar li a.close").click(function(){
+		$(".navbar li a.main-link").removeClass("active");												 									 
+		$(".dropdown-menu").fadeOut();	
+	});	
+});
+</script>
+
+          <!-- JQUERY PLUGIN | ANCHOR SCROLL & ANIMATE
+    ================================================== -->
+ <!--JQUERY SCROLL PLUGIN -->
+<script src="js/jquery.anchorScroll.js"></script> 
+<script src="js/jquery.animate.js"></script>  
+
+ <script type="text/javascript">
+  
+  $(document).ready(function() {
+  
+	$("a.intern").anchorScroll();	
+// 	alert("AnchorScroll läuft");
+  });
+  
+ </script> 
+    
+<!-- 
+    <script>
+    $(document).ready(function(){
+    $("#firstitem").click(function(){
+    alert("script ist activ");
+    	});
+    });
+    </script>
+ -->
+    
+<!-- 
+    <script>
+    $(document).ready(function(){
+	 $('#firstitem').trigger("click");
+	   alert("script ist activ");
+    });
+    </script>
+ -->
 
   </body>
 </html>

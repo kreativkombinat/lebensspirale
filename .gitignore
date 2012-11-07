@@ -1,0 +1,6 @@
+# Do ignore following files
+*.zip
+*.gz
+log/*.log
+log/*.log[0-9]
+*.psd
