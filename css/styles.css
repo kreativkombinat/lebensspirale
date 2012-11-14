@@ -19,6 +19,16 @@
 		padding: 6px 60px 6px 60px;
       }
       
+          a {
+    	color: #85985c;
+    	text-decoration: underline;
+    }
+    
+        a:hover {
+    	color: #5E7038;
+    	text-decoration: underline;
+    }
+      
       
       
       
@@ -60,10 +70,12 @@ background-image: url(../img/br_palette_white_64x64.jpg);
     margin-bottom: -2px;
     }
     
+/* 
     a:hover {
   color: #fff;
   text-decoration: underline;
 }
+ */
       
           /* Header
     ================================================== */
@@ -293,3 +305,15 @@ background-image: url(../img/br_palette_white_64x64.jpg);
     	font-weight: bold;
     	color: #666666;
     }
+    
+/* 
+    footer a {
+    	color: #85985c;
+    	text-decoration: underline;
+    }
+    
+        footer a:hover {
+    	color: #5E7038;
+    	text-decoration: underline;
+    }
+ */
