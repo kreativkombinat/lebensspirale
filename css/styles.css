@@ -20,6 +20,8 @@
       }
       
       
+      
+      
           /* FORMULAR
     ================================================== */
       .input-xlarge {
@@ -37,9 +39,9 @@
 background-image: url(../img/br_palette_white_64x64.jpg);
     	background-repeat: repeat;
     	background-position: left top;
-    	box-shadow: 2px 2px 2px #000;
-    	-webkit-box-shadow: 2px 2px 2px #000;
-    	-moz-box-shadow: 2px 2px 2px #000;
+    	box-shadow: 2px 2px 2px #A7ABAC;
+    	-webkit-box-shadow: 2px 2px 2px #A7ABAC;
+    	-moz-box-shadow: 2px 2px 2px #A7ABAC;
 /*     	border: 3px #FF0000 dotted; */
     }
     
@@ -76,9 +78,9 @@ position: relative;
 background-image: url(../img/br_palette_white_64x64.jpg);
 	background-repeat: repeat;
 	background-position: left top;
-	box-shadow: 2px 2px 2px #000;
-	-webkit-box-shadow: 2px 2px 2px #000;
-	-moz-box-shadow: 2px 2px 2px #000;
+	box-shadow: 2px 2px 2px #A7ABAC;
+	-webkit-box-shadow: 2px 2px 2px #A7ABAC;
+	-moz-box-shadow: 2px 2px 2px #A7ABAC;
 }
 
 .branding {
@@ -161,7 +163,11 @@ background-image: url(../img/br_palette_white_64x64.jpg);
     	color: #ccc;
     	float: none;
     	display: inline-block;
+/* 
     	padding: 12px 35px 12px 12px;
+ */
+    	padding: 12px 25px 12px 0px;
+
     	text-decoration: none;
     	text-shadow: none;
 /*     	border: 3px #990000 dotted; */
@@ -278,4 +284,12 @@ background-image: url(../img/br_palette_white_64x64.jpg);
 }
 
 
-
+    /* Footer 
+    ================================================== */
+    
+    footer p {
+    	font-size: 1.4em;
+    	line-height: 2em;
+    	font-weight: bold;
+    	color: #666666;
+    }
