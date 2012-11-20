@@ -15,7 +15,7 @@
       	color: #85985c;
       }
       
-        h1, h2, h3, h4, h5, h6, p, ul, .indent {
+        address, h1, h2, h3, h4, h5, h6, p, section ul, .indent {
 		padding: 6px 60px 6px 60px;
       }
       
