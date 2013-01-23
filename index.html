@@ -9,7 +9,47 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="css/styles.css" rel="stylesheet">
+    
+    
+<!-- 
+<link href="css/bootstrap_1_1_scaff_normal.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_1_2_scaff_body.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_1_3_scaff_grid.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_1_4_scaff_layout.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_1_base_body.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_2_base_codpre.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_3_base_lables.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_4_base_tables.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_5_base_forms.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_6_base_button.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_2_7_base_icons.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_1_comp_buttongr.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_2_comp_pills.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_3_comp_navbar.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_4_comp_breadcrumbs.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_5_comp_pagination.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_6_comp_pager.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_7_comp_thumbnails.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_8_comp_allerts.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_9_comp_progressbar.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_10_comp_herounit.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_11_mediacomp.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_1_js_tooltips.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_2_js_popovers.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_3_js_modal.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_4_js_dropdown.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_5_js_collapse.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_6_js_carousel.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_5_1_misc_wells.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_5_2_misc_closeicon.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_5_3_misc_utilitys.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_5_4_misc_componanim.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_6_4_responsive_1200.css" rel="stylesheet" media="screen">
+ -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_3_3_comp_navbar.css" rel="stylesheet" media="screen">
+<link href="css/bootstrap_4_4_js_dropdown.css" rel="stylesheet" media="screen">
+<link href="css/styles.css" rel="stylesheet">
     <style>
 .out {
     margin-left: -10000px;
@@ -41,39 +81,56 @@
   
   
 
-<!-- 
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="#">Project name</a>
+<!--           <a class="brand" href="#">Project name</a> -->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+
+              <li class="dropdown intern">
+              <a href="#" id="drop1" class="dropdown-toggle" data-toggle="dropdown">Leistungen <span class="caret"></span></a>            	
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+    <li><a class="intern" tabindex="-1" href="#nlp">NLP</a></li>
+    <li><a class="intern" tabindex="-1" href="#therapie">Therapie</a></li>
+    <li><a class="intern" tabindex="-1" href="#coaching">Coaching</a></li>
+    <li><a class="intern" tabindex="-1" href="#seminare">Seminare</a></li>
+    <li><a class="intern" tabindex="-1" href="#autismus">Autismus</a></li>
+    <li><a class="intern" tabindex="-1" href="#specials">Specials</a></li>
+    </ul>			
+              </li>
+              <li><a class="intern" href="#lebenskrise">Lebenskrise</a></li>
+            	
+            	<li class="dropdown">
+            	<a class="intern" href="#person" id="drop2" class="dropdown-toggle" data-toggle="dropdown">Profil <span class="caret"></span></a>   
+            	         	    
+            <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+    <li><a class="intern" tabindex="-1" href="#person">Person</a></li>
+    <li><a class="intern" tabindex="-1" href="#philosophie">Philosophie</a></li>
+    		</ul>
+            	</li>
+                <li><a class="intern" href="#preise_sprechzeiten">Preise & Sprechzeiten</a></li>
+                <li><a class="intern" href="#aktuelles">Aktuelles</a></li>
+                <li><a class="intern" href="#kontakt">Kontakt</a></li>
             </ul>
-          </div><!~~/.nav-collapse ~~>
+          </div>
         </div>
       </div>
-    </div>
- -->
+    </div> 
 
 
     
 
     <!-- HAUPTNAVIGATION
     ================================================== -->    
+<!-- 
     <nav>
     		<div class="navbar navbar-fixed-top">
-			<!-- <div class="navbar-inner"> -->
+			<!~~ <div class="navbar-inner"> ~~>
 		<div class="container basislayer">
 
-<!--      <a class="brand" href="#">Lebens-Spirale</a> -->
+<!~~      <a class="brand" href="#">Lebens-Spirale</a> ~~>
       <ul class="nav">
         <li class="dropdown active intern"><a id="firstitem" class="main-link intern" href="body"><span>LEISTUNGEN</span></a>
         	<ul class="dropdown-menu" >
@@ -100,10 +157,11 @@
         <li><a href="#kontakt" class="main-link intern"><span>KONTAKT</span></a></li>
 
       </ul>     
-      </div><!-- class="container" -->
-			<!-- </div> -->
+      </div>
+
           </div>
-    </nav> <!-- class="navbar navbar-fixed-top" -->
+    </nav> 
+ -->
     
     
 <div class="container">
@@ -138,11 +196,15 @@
         <div class="bannerfoto">
         <img alt="bannerbild_nlp_b1170" src="img/bannerbild_nlp_b1170.png">
         </div>
+<div class="row">
+<div class="span10 offset1">
           <h2>NLP</h2>
+</div>
+</div>
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>
 NLP – Neuro Linguistisches Programmieren
         		</h4>
@@ -157,7 +219,7 @@ Mit NLP begegnet Ihnen ein System von Prinzipien und Methoden, das als brillante
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4 class="out">Sie haben viel gewonnen</h4>
 
 <p>
@@ -172,7 +234,7 @@ Das erfüllt meine Grundbedingungen für das Erlangen von fachlichen und persön
         	        
 <div class="accordion" id="accordion1">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
 WEITERLESEN
 </a>
@@ -180,7 +242,7 @@ WEITERLESEN
 
 <div id="collapseOne" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
 
 <p>
 „Der beste Weg, die Zukunft vorherzusagen, ist sie zu gestalten.“
@@ -195,7 +257,7 @@ Systemisches Vorgehen ermöglicht die Transparenz der Beziehungen innerhalb eine
         		<p> Somit ergibt sich die ganzheitliche Arbeitsweise im NLP. Die Balance zwischen Ziel und Auswirkungen auf die verschiedenen Kontexte lässt Veränderungen tragfähig und erfüllend sein.
         		</p>
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 
         		<p>
 Sie haben viel gewonnen, wenn Sie in eine zertifizierte Weiterbildung bei mir/uns investieren:         		</p>
@@ -218,6 +280,9 @@ WEB:  "http://www.nlp-augsburg.de" <br>
 </div><!--collapseOne-->
 </div><!--class accordion-group-->
 </div><!-- class id accordeon1 -->
+
+
+
 	</article>  	
 </section><!-- ENDE  ABSCHNITT NLP --> 
 
@@ -229,11 +294,15 @@ WEB:  "http://www.nlp-augsburg.de" <br>
         <div class="bannerfoto">
         <img alt="lebensspirale_banner_therapie_1170" src="img/bannerbild_therapie_b1170.png">
         </div>
+<div class="row">
+<div class="span10 offset1">
           <h2>Therapie</h2>
+</div>
+</div>
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4> Therapie</h4>
         		<p>
 
@@ -250,7 +319,7 @@ Im Verlauf des therapeutischen Prozesses unterstütze ich Sie, Bewältigungsstra
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4 class="out">Unterüberschrift rechte Spalte</h4>
 <p>
 Als wichtiges Ergebnis im therapeutischen Veränderungsprozess sehe ich Ihre sichere Handlungskompetenz und Ihr ganzheitliches Wohlbefinden mit sich und Ihrem Umfeld.
@@ -266,7 +335,7 @@ Mein therapeutischer Werkzeugkoffer basiert auf den Grundlagen systemischer und 
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion2">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
 WEITERLESEN
 </a>
@@ -274,7 +343,7 @@ WEITERLESEN
 
 <div id="collapseTwo" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
    <!--      		<h4>Unterüberschrift linke Spalte</h4> -->
 <!-- 
         		<p>
@@ -293,7 +362,7 @@ WEITERLESEN
 
 
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
 
 <p>
@@ -342,11 +411,15 @@ dem  Leben zu vertrauen.
         <div class="bannerfoto">
         <img alt="lebensspirale_banner_coaching_1170" src="img/bannerbild_coaching_b1170.png">
         </div>
+        <div class="row">
+<div class="span10 offset1">
           <h2>Coaching</h2>
+</div>
+</div>
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Systemisches Coaching – Prozessberatung – Teamentwicklung - Supervision</h4>
 
 
@@ -368,7 +441,7 @@ Bedingungen und Zusammenhänge erkennen, die zu entsprechenden Ergebnissen führ
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4 class="out">Unterüberschrift rechte Spalte</h4>
 <p>
 Ihren beruflichen Weg  planen unter Beachtung der persönlichen Stärken und   Sinnorientierung 
@@ -385,7 +458,7 @@ Ihr Wohlbefinden insgesamt erhöhen
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion3">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
 WEITERLESEN
 </a>
@@ -393,7 +466,7 @@ WEITERLESEN
 
 <div id="collapseThree" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
 
 <p>
 Ich unterstütze Sie, die Sachverhalte aus neuen Blickwinkeln betrachten zu können und Ihr individuelles Reaktionspotenzial zu optimieren.
@@ -408,7 +481,7 @@ Meine Arbeit basiert auf einem eindeutigen Auftrag. In einem Erstgespräch geht 
 
 
         		</div>  <!-- class span 6 -->            	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
 
 
@@ -431,11 +504,18 @@ Meine Arbeit basiert auf einem eindeutigen Auftrag. In einem Erstgespräch geht 
         <div class="bannerfoto">
         <img alt="lebensspirale_banner_seminare_1170" src="img/bannerbild_seminare_b1170.png">
         </div>
+
+          
+                  <div class="row">
+<div class="span10 offset1">
           <h2>Seminare</h2>
+</div>
+</div>
+          
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Seminare Supervision  Weiterbildungen</h4>
 
 
@@ -462,7 +542,7 @@ Einrichtungen</li>
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4 class="out">Unterüberschrift rechte Spalte</h4>
 <p>
 Es gibt eine Brücke zwischen harter Arbeit und Erfolg und diese Brücke heißt Enthusiasmus. Sie können sich davon anstecken lassen!
@@ -477,7 +557,7 @@ Es gibt eine Brücke zwischen harter Arbeit und Erfolg und diese Brücke heißt 
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion4">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">
 WEITERLESEN
 </a>
@@ -485,13 +565,13 @@ WEITERLESEN
 
 <div id="collapseFour" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
 <!--         		<h4>Unterüberschrift linke Spalte</h4> -->
         		<p>
         		Fließtext rechte Spalte
         		</p>
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
         		<p>
         		Fließtext rechte Spalte
@@ -513,11 +593,18 @@ WEITERLESEN
         <div class="bannerfoto">
 <img alt="bannerbild_autismus_b1170" src="img/bannerbild_autismus_b1170.png">
         </div>
+        
+                          <div class="row">
+<div class="span10 offset1">
           <h2>AUTISMUS</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Beratung über Autismusspektrumstörung und das Belastungserleben, Therapie bei Begleitsymptomatik, Soziales Kompetenztraining </h4>
 
 <p>
@@ -533,7 +620,7 @@ Die langjährige Erfahrung im heilpädagogischen Bereich, insbesondere mit Mensc
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4 class="out">Beratung über Autismusspektrumstörung und das Belastungserleben, Therapie bei Begleitsymptomatik, Soziales Kompetenztraining </h4>
 <p>
 Sowohl die Angehörigenberatung, wie auch eine spezielle therapeutische Begleitung des Menschen mit ASS und/oder Trainingseinheiten, um weitere soziale Kompetenzen zu erlangen gehören mitunter zu meinem Leistungsangebot. 
@@ -545,7 +632,7 @@ Sowohl die Angehörigenberatung, wie auch eine spezielle therapeutische Begleitu
         	        
 <div class="accordion" id="accordion5">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">
 WEITERLESEN
 </a>
@@ -553,13 +640,13 @@ WEITERLESEN
 
 <div id="collapseFive" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
 <!--         		<h4>Unterüberschrift linke Spalte</h4> -->
 <p>
 Mit besonderem Verständnis und kreativen Interventionen entwickeln wir gemeinsam Bewältigungsstrategien, um den Alltag leichter meistern zu können.  
 </p>
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
 <p>
 
@@ -580,11 +667,18 @@ Mit besonderem Verständnis und kreativen Interventionen entwickeln wir gemeinsa
         <div class="bannerfoto">
         <img alt="bannerbild_specials_b1170" src="img/bannerbild_specials_b1170.png">
         </div>
+        
+                                  <div class="row">
+<div class="span10 offset1">
           <h2>Specials</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Vorträge, Workshops, Trainings rund um das Lernen   (Grundlagen, Methoden, Prüfungsängste)</h4>
 
 <!-- 
@@ -612,7 +706,7 @@ Ich teile mit Ihnen gerne meine fachlichen und menschlichen Kompetenzen im sonde
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         	    
         	            		<h4 class="out">Vorträge, Workshops, Trainings rund um das Lernen   (Grundlagen, Methoden, Prüfungsängste)</h4>
         	    
@@ -637,7 +731,7 @@ Fachpersonal in sonder- und heilpädagogischen Einrichtungen, Eltern und Assiste
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion6">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">
 WEITERLESEN
 </a>
@@ -646,14 +740,14 @@ WEITERLESEN
 <div id="collapseSix" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
 
-        		<div class="span6">
+        		<div class="span11 offset1">
 <!--         		<h4>Unterüberschrift linke Spalte</h4> -->
         		<p>
         		Fließtext linke Spalte
         		</p>
         		</div>  <!-- class span 6 -->  
        	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         	    
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
         		<p>
@@ -668,6 +762,92 @@ WEITERLESEN
 </section><!-- ENDE  ABSCHNITT COACHING --> 
 
 
+            <!-- 3. Section (LEBENSKRISEN)
+    ================================================== -->  
+<section id="lebenskrise"><!--BEGINN ABSCHNITT LEBENSKRISEN-->    
+        <div class="palette">
+        <header>
+        <div class="bannerfoto">
+        <img alt="Lebenskrisen" src="img/lebensspirale_banner_lebenskrisen_1170.png">
+        </div>
+        
+                
+                                                  <div class="row">
+<div class="span10 offset1">
+          <h2>Lebenskrisen</h2>
+</div>
+</div>
+
+        </header>
+        
+	<article class="row">       
+        		<div class="span11 offset1">
+        		<h4>Lebenskrise - (Aus)- Wege finden</h4>
+
+<!-- 
+<p>
+Lebenskrise - (Aus)- Wege finden
+(zu diesem Thema zwei  grüne Männchen die hintereinandergehen ggf. mit Berührung der Hände über so Hindernispünktchen steigen oder zwei Männchen, die diesen grünen Bogen mitnander halten und in eine Richtung gehen…)
+</p>
+ -->
+<p>
+Unerwartete und starke Veränderungen von Lebensbedingungen, können Ihr seelisches Wohlbefinden massiv beeinträchtigen, so dass Ihre alltägliche Lebensführung nicht mehr möglich ist.
+
+
+
+
+        		</div>  <!-- class span 6 -->   
+        	
+        	    <div class="span10 offset1">
+        		<h4 class="out">Unterüberschrift rechte Spalte</h4>
+<p>
+Damit Sie Schritt für Schritt wieder Fuß fassen im Lebensalltag, biete ich Ihnen Notfall-Termine außerhalb der regulären Sprechzeiten an, damit Sie schnellstmöglich Hilfe bekommen. Bei den Verhandlungen mit Ihrer Krankenkasse zur Übernahme der Kosten für die Krisenintervention unterstütze ich Sie gerne. 
+</p>
+        		</div>  <!-- class span 6 -->    		
+    </article> <!-- row haupttext -->    
+    </div> <!--class="palette" --> 		        	       	
+	<article>  <!--accordion-->
+        	        
+<div class="accordion" id="accordion9">
+<div class="accordion-group">
+<div class="accordion-heading clearfix">
+<a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion9" href="#collapseNine">
+WEITERLESEN
+</a>
+</div><!--accordion-heading-->
+
+<div id="collapseNine" class="palette accordion-body collapse in">
+<div class="row accordion-inner">
+        		<div class="span11 offset1">
+<!--         		<h4>Unterüberschrift linke Spalte</h4> -->
+
+<p>
+„Man muss mit allem rechnen – auch mit Lösungen.“ Das Bewusstsein darüber, dass alles was IST wichtig ist für die persönliche Weiterentwicklung enthält in sich die Idee von Wachstum. Veränderung geschieht mit dem Wahrnehmen eigener Bedürfnisse, dem Vertrauen in die eigene Kraft und einer verantwortungsvollen Integration in sein inneres und äußeres System. 
+</p>
+<p>
+Ich begleite Menschen, sich bewusst zu werden was IST auf ihrem Weg „hin zu“ mehr Handlungsspielraum, Erfolg und Gesundung. Jeder ist auf seinem Weg in seiner Weise verletzlich, niemand ist stärker oder schwächer als ein anderer. In Krisenzeiten bedürfen wir manchmal Jemanden, der uns unterstützt, wieder Zugang zu unseren („vergessenen“) Fähigkeiten zu finden und Hilfe zu unserer eigenen Lösung zu geben. So verstehe ich auch Therapie. 
+</p>
+
+
+
+
+        		</div>  <!-- class span 6 -->         	
+        	    <div class="span10 offset1">
+<!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
+
+
+<p>
+<em>„Du kannst ruhig immer hinter mir her gehen, denn ich weiß den Weg. Dann brauchen wir uns vor nichts zu fürchten,“ sagte der kleine Tiger. (Janosch, oh wie schön ist Panama)</em>
+</p>
+        		</div>  <!-- class span 6 -->   
+</div>  <!--accordion-inner--> 	
+</div><!--collapseOne-->
+</div><!--class accordion-group-->
+</div><!-- class id accordeon1 -->
+	</article>  	
+</section><!-- ENDE  ABSCHNITT LEBENSKRISEN -->  
+
+
             <!-- 2.1 Section (PERSON)
     ================================================== -->  
 <section id="person"><!--BEGINN ABSCHNITT XXX--> 
@@ -676,11 +856,33 @@ WEITERLESEN
         <div class="bannerfoto">
         <img alt="bannerbild_person_b1170" src="img/bannerbild_person_b1170.png">
         </div>
+        
+                                          <div class="row">
+<div class="span10 offset1">
           <h2>Brigitte Seidl-Wiessner</h2>
+</div>
+</div>
+        
+        
+
         </header>
         
+        <div class="row">
+        
+<div class="span10 offset1 ">
+        <ul class="thumbnails">
+	<li class="span4">
+
+<a href="#" class="thumbnails" >	<img class="indent"  alt="Brigittte_Seidl_Wiessner_b300" src="img/Brigittte_Seidl_Wiessner_b300.jpg" width="300" height="396"> </a>
+
+	</li>
+</ul>
+</div>
+
+        </div>
+        
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Therapie ---Seminare ---Weiterbildungen -Coaching- Prozessberatung - Supervision</h4>
 
 
@@ -706,7 +908,7 @@ Mit Begeisterung und Liebe,  Spaß und Humor, Authentizität und Klarheit  sorg
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4>Biographie</h4>
 
 
@@ -731,7 +933,7 @@ Mit Begeisterung und Liebe,  Spaß und Humor, Authentizität und Klarheit  sorg
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion7">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion7" href="#collapseSeven">
 WEITERLESEN
 </a>
@@ -739,7 +941,7 @@ WEITERLESEN
 
 <div id="collapseSeven" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Schwerpunkte: </h4>
         		
         		<p>
@@ -747,18 +949,26 @@ WEITERLESEN
 </em></p>
 
 <p>
-Schwerpunkt in meiner Arbeit ist die menschliche Ebene mit all den Themen, die davon berührt sind: Kommunikation, Identität, Motivation, Selbstwert, Heilung und Spiritualität, Wachstum und Entwicklung. Ich arbeite prozess- und ressourcenorientiert und gehe systemisch und lösungsfokussiert („hin-zu“) vor. Dabei ist NLP (Neuro-Linguistisches Programmieren) kunstvoll und effizient eingebunden und mitgestaltend für den Erfolg in der Therapie, den Trainings, Workshops, Kursen und Seminaren, der Supervision und dem Coaching. Besondere Akzente setze ich auf sinnenreiche und ganzheitliche Wahrnehmung, Sprache, Analogien, Entspannung und Körpererfahrungen, Humor und Interaktion.  
+Schwerpunkt in meiner Arbeit ist die menschliche Ebene mit all den Themen, die davon berührt sind: Kommunikation, Identität, Motivation, Selbstwert, Heilung und Spiritualität, Wachstum und Entwicklung. Ich arbeite prozess- und ressourcenorientiert und gehe systemisch und lösungsfokussiert („hin-zu“) vor. 
+</p>
+<p>
+Dabei ist NLP (Neuro-Linguistisches Programmieren) kunstvoll und effizient eingebunden und mitgestaltend für den Erfolg in der Therapie, den Trainings, Workshops, Kursen und Seminaren, der Supervision und dem Coaching. Besondere Akzente setze ich auf sinnenreiche und ganzheitliche Wahrnehmung, Sprache, Analogien, Entspannung und Körpererfahrungen, Humor und Interaktion.  
 Teilnehmerstimmen:  in Bearbeitung
 </p>
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 
 
         		
          		<h4>Weiterbildungen: </h4>
 
 <p>
-Lösungsfokussierte Therapie, systemische Therapie, Hypnotherapie, provokative Therapie, Bildarbeit; EFT (Emotional Freedom Techniques), Ego-State-Therapie, Teile-Therapie, Körperintelligenz, Wirtschaftsmediation.
+Emotional Freedom Techniques (EFT) und Weiterbildung zur Autismusfachkraft.   
+</p>
+      		
+
+<p>
+Lösungsfokussierte Therapie, systemische Therapie, Hypnotherapie, provokative Therapie, Bildarbeit; <!-- EFT (Emotional Freedom Techniques) -->, Ego-State-Therapie, Teile-Therapie, Körperintelligenz, Wirtschaftsmediation.
 </p>
 
 <p>
@@ -786,11 +996,18 @@ Gestützte Kommunikation (FC – facilitated communication bei Ludo Vande Kerckh
         <div class="bannerfoto">
         <img alt="bannerbild_philosophie_b1170" src="img/bannerbild_philosophie_b1170.png">
         </div>
+        
+<div class="row">
+<div class="span10 offset1">
           <h2>Philosophie</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
 <!--         		<h4>Unterüberschrift linke Spalte</h4> -->
 
 
@@ -804,7 +1021,7 @@ Gestützte Kommunikation (FC – facilitated communication bei Ludo Vande Kerckh
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4 class="out">Unterüberschrift rechte Spalte</h4> -->
 <p>
     Ich begleite Menschen, sich bewusst zu werden was IST auf ihrem Weg „hin zu“ mehr Handlungsspielraum, Erfolg und Gesundung. Jeder ist auf seinem Weg in seiner Weise verletzlich, niemand ist stärker oder schwächer als ein anderer. In Krisenzeiten bedürfen wir manchmal Jemanden, der uns unterstützt, wieder Zugang zu unseren („vergessenen“) Fähigkeiten zu finden und Hilfe zu unserer eigenen Lösung zu geben. So verstehe ich auch Therapie.
@@ -812,7 +1029,7 @@ Gestützte Kommunikation (FC – facilitated communication bei Ludo Vande Kerckh
     
 <p>
     Das ist Arbeit, die herausfordert und Spaß macht.
-    Die Qualität und Professionalität meiner Arbeit stützt sich auf Methodenvielfalt, Kreativität , Intuition, Humor und Mut.
+    Die Qualität und Professionalität meiner Arbeit stützt sich auf Methodenvielfalt, Kreativität, Intuition, Humor und Mut.
 </p>
         		</div>  <!-- class span 6 -->    		
     </article> <!-- row haupttext -->    
@@ -820,7 +1037,7 @@ Gestützte Kommunikation (FC – facilitated communication bei Ludo Vande Kerckh
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion8">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion8" href="#collapseEight">
 WEITERLESEN
 </a>
@@ -828,13 +1045,13 @@ WEITERLESEN
 
 <div id="collapseEight" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
 <!--         		<h4>Unterüberschrift linke Spalte</h4> -->
         		<p>
         		Fließtext linke Spalte
         		</p>
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
         		<p>
         		Fließtext rechte Spalte
@@ -848,84 +1065,6 @@ WEITERLESEN
 </section><!-- ENDE  ABSCHNITT PHILOSOPHIE -->  
 
 
-            <!-- 3. Section (LEBENSKRISEN)
-    ================================================== -->  
-<section id="lebenskrise"><!--BEGINN ABSCHNITT LEBENSKRISEN-->    
-        <div class="palette">
-        <header>
-        <div class="bannerfoto">
-        <img alt="Lebenskrisen" src="img/lebensspirale_banner_lebenskrisen_1170.png">
-        </div>
-          <h2>Lebenskrisen</h2>
-        </header>
-        
-	<article class="row">       
-        		<div class="span6">
-        		<h4>Lebenskrise - (Aus)- Wege finden</h4>
-
-<!-- 
-<p>
-Lebenskrise - (Aus)- Wege finden
-(zu diesem Thema zwei  grüne Männchen die hintereinandergehen ggf. mit Berührung der Hände über so Hindernispünktchen steigen oder zwei Männchen, die diesen grünen Bogen mitnander halten und in eine Richtung gehen…)
-</p>
- -->
-<p>
-Unerwartete und starke Veränderungen von Lebensbedingungen, können Ihr seelisches Wohlbefinden massiv beeinträchtigen, so dass Ihre alltägliche Lebensführung nicht mehr möglich ist.
-
-
-
-
-        		</div>  <!-- class span 6 -->   
-        	
-        	    <div class="span6">
-        		<h4 class="out">Unterüberschrift rechte Spalte</h4>
-<p>
-Damit Sie Schritt für Schritt wieder Fuß fassen im Lebensalltag, biete ich Ihnen Notfall-Termine außerhalb der regulären Sprechzeiten an, damit Sie schnellstmöglich Hilfe bekommen. Bei den Verhandlungen mit Ihrer Krankenkasse zur Übernahme der Kosten für die Krisenintervention unterstütze ich Sie gerne. 
-</p>
-        		</div>  <!-- class span 6 -->    		
-    </article> <!-- row haupttext -->    
-    </div> <!--class="palette" --> 		        	       	
-	<article>  <!--accordion-->
-        	        
-<div class="accordion" id="accordion9">
-<div class="accordion-group">
-<div class="accordion-heading row">
-<a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion9" href="#collapseNine">
-WEITERLESEN
-</a>
-</div><!--accordion-heading-->
-
-<div id="collapseNine" class="palette accordion-body collapse in">
-<div class="row accordion-inner">
-        		<div class="span6">
-<!--         		<h4>Unterüberschrift linke Spalte</h4> -->
-
-<p>
-„Man muss mit allem rechnen – auch mit Lösungen.“ Das Bewusstsein darüber, dass alles was IST wichtig ist für die persönliche Weiterentwicklung enthält in sich die Idee von Wachstum. Veränderung geschieht mit dem Wahrnehmen eigener Bedürfnisse, dem Vertrauen in die eigene Kraft und einer verantwortungsvollen Integration in sein inneres und äußeres System. 
-</p>
-<p>
-Ich begleite Menschen, sich bewusst zu werden was IST auf ihrem Weg „hin zu“ mehr Handlungsspielraum, Erfolg und Gesundung. Jeder ist auf seinem Weg in seiner Weise verletzlich, niemand ist stärker oder schwächer als ein anderer. In Krisenzeiten bedürfen wir manchmal Jemanden, der uns unterstützt, wieder Zugang zu unseren („vergessenen“) Fähigkeiten zu finden und Hilfe zu unserer eigenen Lösung zu geben. So verstehe ich auch Therapie. 
-</p>
-
-
-
-
-        		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
-<!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
-
-
-<p>
-<em>„Du kannst ruhig immer hinter mir her gehen, denn ich weiß den Weg. Dann brauchen wir uns vor nichts zu fürchten,“ sagte der kleine Tiger. (Janosch, oh wie schön ist Panama)</em>
-</p>
-        		</div>  <!-- class span 6 -->   
-</div>  <!--accordion-inner--> 	
-</div><!--collapseOne-->
-</div><!--class accordion-group-->
-</div><!-- class id accordeon1 -->
-	</article>  	
-</section><!-- ENDE  ABSCHNITT LEBENSKRISEN -->  
-
 
             <!-- 4. Section (PREISE & SPREICHZEITEN)
     ================================================== -->  
@@ -935,11 +1074,18 @@ Ich begleite Menschen, sich bewusst zu werden was IST auf ihrem Weg „hin zu“
         <div class="bannerfoto">
         <img alt="bannerbild_klienteninfo_b1170" src="img/bannerbild_klienteninfo_b1170.png" width="1169" height="430">
         </div>
+        
+                                                          <div class="row">
+<div class="span10 offset1">
           <h2>Preise & Sprechzeiten</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Klienteninformation</h4>
 
 
@@ -965,7 +1111,7 @@ Bitte klären Sie das mit mir in einem Telefonat. Die Psychotherapeutische Praxi
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <h4>Therapiekosten</h4>
 
 
@@ -993,7 +1139,7 @@ Als Selbstzahler haben Sie die Möglichkeit, die Kosten der Therapie  im Rahmen 
 	<article>  <!--accordion-->        	        
 <div class="accordion" id="accordion10">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion10" href="#collapseTenth">
 WEITERLESEN
 </a>
@@ -1001,13 +1147,13 @@ WEITERLESEN
 
 <div id="collapseTenth" class="palette accordion-body collapse in">
 <div class="row accordion-inner">
-        		<div class="span6">
+        		<div class="span11 offset1">
 <!--         		<h4>Unterüberschrift linke Spalte</h4> -->
         		<p>
         		Fließtext linke Spalte
         		</p>
         		</div>  <!-- class span 6 -->         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
 <!--         		<h4>Unterüberschrift rechte Spalte</h4> -->
         		<p>
         		Fließtext rechte Spalte
@@ -1029,11 +1175,18 @@ WEITERLESEN
         <div class="bannerfoto">
         <img alt="bannerbild_aktuelles_b1170" src="img/bannerbild_aktuelles_b1170.png">
         </div>
+        
+                                                                  <div class="row">
+<div class="span10 offset1">
           <h2>Aktuelles</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span11 offset1">
         		<h4>Burnout, Entspannung, Lebensfreude
 </h4>
         		<p>
@@ -1046,7 +1199,7 @@ Leidenslust – Lebenslust
         		</p>
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4 class="out">Unterüberschrift rechte Spalte</h4>
         		<p>
         		Fließtext rechte Spalte
@@ -1058,7 +1211,7 @@ Leidenslust – Lebenslust
 	<article>  <!~~accordion~~>        	        
 <div class="accordion" id="accordion3">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
 WEITERLESEN
 </a>
@@ -1097,11 +1250,18 @@ WEITERLESEN
         <div class="bannerfoto">
 <img alt="bannerbild_kontakt_b1170" src="img/bannerbild_kontakt_b1170.png">
         </div>
+        
+                                                                   <div class="row">
+<div class="span10 offset1">
           <h2>Kontakt</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-<div class="span6"> 
+<div class="span11 offset1"> 
         		<h4>Es freut mich von Ihnen zu hören:</h4>
  
 <div class="indent">
@@ -1110,7 +1270,7 @@ WEITERLESEN
  
 </div>
 
-<div class="span6">
+<div class="span10 offset1">
         		<h4>Kontakt-Formular</h4>
     <form action="skript-formular.php" id="contact-form" method="post" class="indent">
     
@@ -1165,11 +1325,18 @@ WEITERLESEN
         <div class="bannerfoto">
         <img alt="bannerbild_impressum_b1170" src="img/bannerbild_impressum_b1170.png">
         </div>
+        
+                                                                           <div class="row">
+<div class="span10 offset1">
           <h2>Impressum</h2>
+</div>
+</div>
+        
+
         </header>
         
 	<article class="row">       
-        		<div class="span6">
+        		<div class="span10 offset1">
         		<h4>Inhalt des Onlineangebotes</h4>
 
 <p>
@@ -1198,7 +1365,7 @@ Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Sc
 
         		</div>  <!-- class span 6 -->   
         	
-        	    <div class="span6">
+        	    <div class="span10 offset1">
         		<h4>    Urheber- und Kennzeichenrecht:</h4>
 
 
@@ -1224,12 +1391,16 @@ Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Sc
 
         		</div>  <!-- class span 6 -->    		
     </article> <!-- row haupttext -->    
-    </div> <!--class="palette" --> 		        	
+    </div> <!--class="palette" --> 	
+    
+
+    
+    	        	
 <!-- 
 	<article>  <!~~accordion~~>        	        
 <div class="accordion" id="accordion3">
 <div class="accordion-group">
-<div class="accordion-heading row">
+<div class="accordion-heading clearfix">
 <a class="accordion-toggle pull-right" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
 WEITERLESEN
 </a>
@@ -1259,7 +1430,7 @@ WEITERLESEN
 
   
     <footer>
-      <p>Die Lebensspirale - Copyright © 2012 All Rights - <a class="intern" href="#impressum">Impressum</a></p>
+      <p>Die Lebensspirale - Copyright © 2013 - <a class="intern" href="#impressum">Impressum</a></p>
     </footer>  
 
     </div> <!-- /container -->
@@ -1270,6 +1441,7 @@ WEITERLESEN
     <script src="js/jquery-1.8.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
+<!-- 
     <script type="text/javascript">
 $(document).ready(function(){
 	$(".navbar li a.main-link").hover(function(){
@@ -1284,6 +1456,7 @@ $(document).ready(function(){
 	});	
 });
 </script>
+ -->
 
 
 
@@ -1295,6 +1468,8 @@ $("[id^=collapse]").removeClass("palette accordion-body collapse in");
 $("[id^=collapse]").addClass("palette accordion-body collapse");
 });
 </script>
+
+
 
 
  
