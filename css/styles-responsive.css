@@ -1,0 +1,30 @@
+    /* NAVBAR 
+    ================================================== */
+    
+      .nav-collapse .nav > li > a,
+  .nav-collapse .dropdown-menu a {
+    padding: 9px 15px;
+    font-weight: bold;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  
+    .nav-collapse .nav > li > a:hover,
+  .nav-collapse .dropdown-menu a:hover {
+    background-color: #5E7038;
+  }
+  
+  @media (max-width: 979px)
+  {
+  
+  .branding {
+    left: 0;
+    position: relative;
+    top: -100px;
+}
+}
+  
+      /* XXX 
+    ================================================== */
