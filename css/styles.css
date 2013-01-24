@@ -49,6 +49,14 @@ hr.soften {
       
       a:focus {outline:none;}
       
+      .hero-unit h1 {
+ /*    color: inherit; */
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+      
       
       
           /* FORMULAR
