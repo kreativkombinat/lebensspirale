@@ -74,13 +74,23 @@ hr.soften {
 	-webkit-box-shadow: 0 8px 6px -6px #999;
 	   -moz-box-shadow: 0 8px 6px -6px #999;
 	        box-shadow: 0 8px 6px -6px #999;
+	        padding-bottom: 36px;
 		
-		margin-bottom: 30px;
+/* 		margin-bottom: 30px; */
     }
     
 
            /* NAVBAR 
     ================================================== */
+ 
+ .nav > li > a {
+    display: block;
+    font-size: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+ 
+ 
  .navbar-inner
  {
  	min-height: 40px;
@@ -283,6 +293,10 @@ div.accordion-heading:after {
     	line-height: 2em;
     	font-weight: bold;
     	color: #666666;
+    }
+    
+    footer {
+    padding: 24px 0 36px 0;
     }
     
     
