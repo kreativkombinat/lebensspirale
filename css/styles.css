@@ -19,6 +19,15 @@
       	background-attachment: fixed;
       }
       
+/*   PASSFOTO SEIDL-WIESSNER */
+img.portrait {
+width: 170px;
+height: 224px;
+padding: 12px 18px 6px 0;
+
+}
+
+      
 hr.soften {
 /*     background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent); */
     border: 0 none;
