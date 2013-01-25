@@ -20,7 +20,7 @@
       }
       
 hr.soften {
-    background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent);
+/*     background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent); */
     border: 0 none;
     height: 1px;
     margin: 70px 0;
@@ -93,7 +93,7 @@ hr.soften {
  
  .nav > li > a {
     display: block;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -228,7 +228,7 @@ div.accordion-heading:after {
 /*   min-width: 160px; */
   min-width: 600px;
   padding: 5px 0;
-  margin: 2px 0 0;
+  margin: 6px 0 0 0;
   list-style: none;
   background-color: #5F7238;
   border: 1px solid #ccc;
@@ -248,6 +248,30 @@ div.accordion-heading:after {
   background-clip: padding-box;
 }
 
+/* Weißer Pfeil */
+
+.navbar .nav > li > .dropdown-menu:after {
+    border-bottom: 6px solid #FFFFFF;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 22px;
+    position: absolute;
+    top: 0px;
+}
+
+/* Weißer Pfeil Schatten */
+.navbar .nav > li > .dropdown-menu:before {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    display: inline-block;
+    left: 22px;
+    position: absolute;
+    top: 0;
+}
 
 
 .dropdown-menu .active > a,
