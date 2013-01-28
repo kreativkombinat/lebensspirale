@@ -4,10 +4,8 @@
     ================================================== 
     HELLGRÜN #85985c (RGB 133 152 92 - CMYK 54 27 72 4)
     DUNKELGRÜN #5E7038 (RGB 94 112 56 - CMYK 65 39 87 22)
-    
-    
-    
     */
+    
 
     /* BODY
     ================================================== */
@@ -17,6 +15,10 @@
       	background-repeat: repeat;
       	background-position: left top;
       	background-attachment: fixed;
+      }
+      
+      section {
+      padding: 48px 0 0 0;
       }
       
 /*   PASSFOTO SEIDL-WIESSNER */
@@ -32,7 +34,7 @@ hr.soften {
 /*     background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent); */
     border: 0 none;
     height: 1px;
-    margin: 70px 0;
+    margin: 42px 0;
 }
 
  
