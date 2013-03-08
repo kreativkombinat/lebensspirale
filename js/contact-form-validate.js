@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
 		if(!hasError) {
 			var formInput = $(this).serialize();
 			$.post($(this).attr('action'),formInput, function(data){
-				$("form#contact-form").before('<div class="contact-success"><strong>Danke!</strong><p>Wir werden uns umgehend mit Ihrem Anliegen befassen und uns gegebenenfalls bei Ihnen melden.</p> <p>Ihr KREATIVKOMBINAT</p></div>');
+				$("form#contact-form").before('<div class="contact-success"><strong>Danke!</strong><p>Wir werden uns umgehend mit Ihrem Anliegen befassen und uns gegebenenfalls bei Ihnen melden.</p> <p>Ihre LEBENSSPIRALE</p></div>');
 			});
 		}
 

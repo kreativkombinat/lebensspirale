@@ -355,7 +355,7 @@ div.accordion-heading:after {
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);*/
     overflow: hidden;
-    padding: 5%;
+/*     padding: 5%; */
     position: relative;
 }
 .contact-success {
@@ -381,7 +381,7 @@ div.accordion-heading:after {
 }
 .form textarea {
     height: 150px;
-    width: 96%;
+/*     width: 96%; */
 }
 /* 
 .form input.submit {
