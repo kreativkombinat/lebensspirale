@@ -1,5 +1,5 @@
 <?php
-$email_to = "info@kreativkombinat.de";
+$email_to = "lebensspirale@aol.com";
 $name = $_POST["name"];
 $email = $_POST["email"];
 $url = $_POST["url"];
