@@ -5,8 +5,8 @@
 
 <title>Danke f&uuml;r Ihre Nachricht</title>
 
-<link href="styles/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="styles/css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
 
 
 <style type="text/css">

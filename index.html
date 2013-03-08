@@ -965,10 +965,38 @@ email: lebensspirale@aol.com<br />
 
 <div class="span10 offset1">
         		<h4>Kontakt-Formular</h4>
+        					<form action="send.php" id="contact-form" class="form" method="post">
+				<ul>	
+					<li>
+						<p>Name <em>(*)</em></p>
+						<input name="name" type="text" class="requiredField" />
+					</li>
+					<li>
+						<p>E-mail <em>(*)</em></p>
+						<input name="email" type="text" class="requiredField email" />
+					</li>
+					<li>
+						<p>URL <em>(Optional)</em></p>
+						<input name="url" type="text" />
+					</li>
+					<li class="textarea">
+						<p>Nachricht <em>(*)</em></p>
+						<textarea name="message" rows="20" cols="30" class="requiredField"></textarea>
+					</li>
+					<li class="submit-button">
+<!-- 						<input name="submit" id="submitted" value="Jetzt senden" class="submit" type="submit" /> -->
+					</li>
+				</ul>
+				
+              <div>
+	<button type="submit" class="btn btn-success btn-large">Senden</button>
+        			</div><!~~form-actions~~>				
+				
+			</form>
+<!-- 
     <form action="skript-formular.php" id="contact-form" method="post" class="indent">
     
     					  <fieldset>
-<!-- 					    <legend>Ihr Kontakt</legend> -->
 					    <div class="control-group">
 					      <label class="control-label" for="name">Ihr Name</label>
 					      <div class="controls">
@@ -981,14 +1009,13 @@ email: lebensspirale@aol.com<br />
 					        <input type="text" class="input-xlarge" name="email" id="email">
 					      </div>
 					    </div>
-<!-- 
 					    <div class="control-group">
 					      <label class="control-label" for="subject">Betreff</label>
 					      <div class="controls">
 					        <input type="text" class="input-xlarge" name="subject" id="subject">
 					      </div>
 					    </div>
- -->
+ ~~>
 					    <div class="control-group">
 					      <label class="control-label" for="message">Ihre Nachricht</label>
 					      <div class="controls">
@@ -997,13 +1024,11 @@ email: lebensspirale@aol.com<br />
 					    </div>
               <div>
 	<button type="submit" class="btn btn-success btn-large">Senden</button>
-<!--     <button class="btn">Zurücksetzen</button> -->
-        			</div><!--form-actions-->
+        			</div><!~~form-actions~~>
 					  </fieldset>
-    
-    
-
     </form>
+ -->
+    
 </div>
         		   		
     </article> <!-- row haupttext -->    
@@ -1123,21 +1148,13 @@ E-Mail: <a href="mailto:info@kreativkombinat.de" title="Email an die Web-Agentur
               <!-- JQUERY VALIDATE PLUGIN
     ================================================== -->    
     
-	<!--JQUERY VALIDATE PLUGIN -->
+<!-- 
 	<script src="js/jquery.validate.min.js"></script> 
 		<script src="js/script.js"></script> 
-    
-<!-- 
-<script>
-$("#contact-form").validate({
-  rules: {
-    thename: "required",
-    theemail: "required",
-    ihrenachricht: "required"
-  }
-});
-</script>
  -->
+<script src="js/contact-form-validate.js"></script>
+    
+
 
 
     

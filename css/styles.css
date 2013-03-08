@@ -347,4 +347,82 @@ div.accordion-heading:after {
     }
     
     
-
+    /* FORMULAR 
+    ================================================== */
+    
+    .form, .contact-success {
+/*     background-color: #F4F4F4; 
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);*/
+    overflow: hidden;
+    padding: 5%;
+    position: relative;
+}
+.contact-success {
+    background-color: #666666;
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.form ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.form li {
+    position: relative;
+}
+.form input, .form textarea {
+    border-radius: 6px 6px 6px 6px;
+    margin-bottom: 12px;
+    padding: 2%;
+    position: relative;
+    width: 85%;
+}
+.form textarea {
+    height: 150px;
+    width: 96%;
+}
+/* 
+.form input.submit {
+    width: 110px;
+}
+.form li p, .form input.submit {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+ */
+.form em {
+    color: #AAAAAA;
+    display: inline;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+.form .contact-error {
+    color: #EC5B43;
+    font-size: 11px;
+    font-weight: bold;
+    position: absolute;
+    right: 60px;
+    text-transform: uppercase;
+    top: 0;
+}
+.form h5 {
+    font-family: LeagueGothicRegular,sans-serif;
+    font-size: 2.2em;
+    line-height: 90%;
+    margin: 0 0 20px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    text-transform: uppercase;
+}
+.contact-info {
+    background-color: #F4F4F4;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.17);
+    list-style-type: none;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 5%;
+    position: relative;
+}
