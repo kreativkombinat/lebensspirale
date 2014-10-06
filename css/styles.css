@@ -428,3 +428,7 @@ div.accordion-heading:after {
     padding: 5%;
     position: relative;
 }
+
+#contactForm {
+  margin-left: 30px;
+}
