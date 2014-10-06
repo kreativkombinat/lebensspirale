@@ -26,7 +26,7 @@
                       'from_email': email,
                       'to': [
                           {
-                            'email': 'info@kreativkombinat.de',
+                            'email': 'lebensspirale@aol.com',
                             'name': 'Die Lebensspirale',
                             'type': 'to'
                           }
